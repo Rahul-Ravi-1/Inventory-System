@@ -1,0 +1,26 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+
+.inventory-box {
+  border: 1px solid yellow;
+}
+
+.inventory-slot{
+  background-color: darkgoldenrod;
+  width: 48px;
+  height: 48px;
+  padding : 0;
+}
