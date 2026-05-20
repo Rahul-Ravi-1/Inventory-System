@@ -16,15 +16,18 @@ body {
 
 .inventory-box {
   display: grid;
-  gap: 20px;
+  grid-template-columns: repeat(var(--cols), 64px);
+  grid-template-rows: repeat(var(--rows), 64px);
+  gap: 12px;
+  width: fit-content;
+  margin: 0 auto;
   border: 1px solid black;
-  align-items: center;
-  justify-content: space-between;
 }
 
 .inventory-slot{
   background-color: darkgoldenrod;
-  width: 48px;
-  height: 48px;
+  border : 1px solid black;
+  width: 64px;
+  height: 64px;
   padding : 0;
 }
