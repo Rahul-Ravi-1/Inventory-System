@@ -31,3 +31,6 @@ body {
   height: 64px;
   padding : 0;
 }
+.inventory-slot-selected{
+  background-color: rgb(129, 93, 3);
+}
