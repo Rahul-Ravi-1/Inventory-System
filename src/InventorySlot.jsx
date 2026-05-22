@@ -1,10 +1,10 @@
 import './index.css';
 
-export default function InventorySlot({onClick , label , slotID , isSelected}) {
+export default function InventorySlot({onClick , label , slotIndex , isSelected}) {
     return <button type="button" 
-            className={`inventory-slot${isSelected ? "inventory-slot-selected" : ""}`}
+            className={`${isSelected ? "inventory-slot-selected" : "inventory-slot"}`}
             onClick={onClick}
-            data-slot-index = {slotID}
+            slotIndex = {slotIndex}
             >
         {label}
     </button>;

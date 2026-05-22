@@ -6,7 +6,7 @@ const CAPACITY = COLS * ROWS;
  * Builds a slot map: every index 0..CAPACITY-1 starts null,
  * then optional seed items are placed (e.g. { 1: "weapon_01" }).
  */
-function createInventory(seedItems = { 1: "weapon_01" }) {
+function createInventory(seedItems = { 0: "weapon_01" , 1: "item_01" }) {
   const slots = {};
   for (let i = 0; i < CAPACITY; i++) {
     slots[i] = null;
