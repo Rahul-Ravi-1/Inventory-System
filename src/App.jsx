@@ -26,6 +26,7 @@ export default function App() {
 return (
     <main>
       <h1>Inventory</h1>
+      <div id = "container">
       <div
         className="inventory-box"
         style={{
@@ -46,6 +47,7 @@ return (
             />
           );
         })}
+      </div>
       </div>
     </main>
   );
