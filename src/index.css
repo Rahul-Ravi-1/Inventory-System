@@ -27,7 +27,6 @@ main {
   grid-template-rows: repeat(var(--rows), 64px);
   gap: 12px;
   width: fit-content;
-  margin: 0 auto;
   border: 1px solid black;
 }
 

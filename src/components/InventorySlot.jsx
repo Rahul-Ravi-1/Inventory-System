@@ -1,4 +1,3 @@
-import './index.css';
 
 export default function InventorySlot({onClick , label , slotIndex , isSelected}) {
     return <button type="button" 
