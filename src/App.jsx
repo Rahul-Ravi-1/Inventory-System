@@ -19,7 +19,7 @@ export default function App() {
       return;
     }
     setInventory((prev) =>
-    inventorySystem.moveItem(inventory , selectedSlot, slotIndex)
+    inventorySystem.moveItem(prev , selectedSlot, slotIndex)
     );
     setSelectedSlot(null);
   }
