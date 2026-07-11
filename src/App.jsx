@@ -12,9 +12,9 @@ export default function App() {
 
   function handleSlotClick(slotIndex) {
     const itemID = inventory[slotIndex];
-    const item = getItemID;
+    const item = getItemID(itemID);
     if(selectedSlot === null) {
-      if(!inventory[slotIndex]) return;
+      if(!itemID) return;
       setSelectedSlot(slotIndex);
       return;
     }
