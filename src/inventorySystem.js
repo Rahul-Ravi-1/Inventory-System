@@ -28,6 +28,7 @@ function positionToSlot(row, col, cols = COLS) {
   return row * cols + col;
 }
 
+//move to server side alongside add and remove item functions
 function moveItem ( inventory, from , to ) {
     if(from == to) return inventory;
 
